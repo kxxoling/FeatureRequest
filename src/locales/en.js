@@ -1,0 +1,51 @@
+export default {
+  validator: {
+    default: 'Field {label} is incorrect.',
+    required: 'Field {label} is required.',
+    pattern: 'Field {label}\'s format is incorrect.',
+    whitespace: 'Field {label} can\'t be empty',
+    enum: '{label}必须为以下值中的一个: {list}',
+    length: {
+      default: 'Field {label}\'s length is incorrect.',
+      min: '{label}至少有{min}个字符',
+      max: '{label}最多有{max}个字符',
+      range: '{label}的长度应该大于等于{min}并且小鱼等于{max}',
+    },
+    range: {
+      min: '{label} should be greater than {min}.',
+      max: '{label} should be less than {max}.',
+      range: '{label} should between {min} and {max}.',
+    },
+  },
+  datepicker: {
+    today: 'Today',
+    clear: 'Clear',
+    confirm: 'OK',
+    weeks: {
+      sun: 'Sun',
+      mon: 'Mon',
+      tue: 'Tue',
+      wed: 'Wed',
+      thu: 'Thu',
+      fri: 'Fri',
+      sat: 'Sat',
+    },
+    months: {
+      jan: 'January',
+      feb: 'February',
+      mar: 'March',
+      apr: 'April',
+      may: 'May',
+      jun: 'June',
+      jul: 'July',
+      aug: 'August',
+      sep: 'September',
+      oct: 'October',
+      nov: 'November',
+      dec: 'December',
+    },
+  },
+  alert: {
+    title: 'Tip',
+  },
+};

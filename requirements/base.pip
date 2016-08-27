@@ -1,0 +1,6 @@
+Flask
+Flask-Login
+Flask-OAuthlib
+Flask-SQLAlchemy
+marshmallow-sqlalchemy
+Flask-Marshmallow
